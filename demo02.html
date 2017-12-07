@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+    <title>demo02</title>
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <style>
+        body,html{
+            height: 100%;
+        }
+        .swiper-container{
+            width: 100%;
+            height: 100%;
+        }
+        .s1{
+            background: rgba(255, 55, 201, 0.62);
+        }
+        .s2{
+            background: rgba(201, 255, 133, 0.62);
+        }
+        .s3{
+            background: rgba(95, 255, 184, 0.62);
+        }
+        .s4{
+            background: rgba(213, 255, 95, 0.62);
+        }
+    </style>
+</head>
+<body>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide s1">每一个页1</div>
+            <div class="swiper-slide s2">每一个页2</div>
+            <div class="swiper-slide s3">每一个页3</div>
+            <div class="swiper-slide s4">每一个页4 <input type="button" value="123" class="swiper-no-swiping"><input type="text" class="swiper-no-swiping"></div>
+        </div>
+    </div>
+    <script src="js/swiper.min.js"></script>
+    <script>
+        var swiper=new Swiper(".swiper-container",{
+            direction:"vertical",
+//            竖滑
+//            loop:true
+//            循环
+            noSwiping:true
+//            禁止切换  把 swiper-no-swiping类名加给谁，谁无法切换  用于按钮表单
+//            swipeHandler : '.swipe-handler',  增加 class="swipe-handler" 只能拖动所加类的div
+//            allowSwipeToNext : false, 禁止右上滑动
+//            allowSwipeToPrev : false, 禁止左上滑动
+        })
+    </script>
+</body>
+</html>

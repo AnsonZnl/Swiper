@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)http://www.swiper.com.cn/demo/progressShow/index.html -->
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!--    响应手机端                适口                  设备的宽度           用户缩放=NO         最大缩放              最小缩放-->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+    <title>swiper---demo01---移动的轮播图</title>
+    <meta name="viewport" content="initial-scale=1">
+    <!--<link rel="stylesheet" href="../../dist/css/swiper.min.css">
+    <script src="../../dist/js/swiper.min.js"></script>-->
+    <link rel="stylesheet" href="css/swiper.min.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        html,body{
+            height:100%;
+        }
+        .swiper-container{
+            width: 100%;
+            height: 100%;
+        }
+        .s1{
+            background: #7aff71;
+        }
+        .s2{
+            background: #ffc8cd;
+        }
+        .s3{
+            background: #ffa210;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+        }
+
+    </style>
+</head>
+<body>
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+            <div class="swiper-slide s1"><img src="img/zhiling1.jpg" alt=""></div>
+            <div class="swiper-slide s2"><img src="img/zhiling2.jpg" alt=""></div>
+            <div class="swiper-slide s3"><img src="img/zhiling3.jpg" alt=""></div>
+            <div class="swiper-slide s3"><img src="img/zhiling4.jpg" alt=""></div>
+            <!--<audio src="李宗盛-爱的代价.mp3" controls="" autoplay="autoplay"></audio>-->
+    </div>
+    <!-- 如果需要分页器 -->
+    <!--<div class="swiper-pagination"></div>-->
+    <!-- 如果需要导航按钮  左右的按钮-->
+    <!--<div class="swiper-button-prev"></div>-->
+    <!--<div class="swiper-button-next"></div>-->
+    <!-- 如果需要滚动条 -->
+    <!--<div class="swiper-scrollbar"></div>-->
+</div>
+<script src="js/swiper.min.js"></script>
+<script type="text/javascript">
+    var mySwiper=new Swiper(".swiper-container",{
+        direction:"vertical",
+//      direction:"horizontal"
+//       设置滑动方向  竖直vertical  水平horizontal
+        speed:1000,
+//        滑动速度
+//        initialSlide:0,
+//        索引 默认打开第二章
+//        pagination: {
+//            el: '.swiper-pagination',
+////            绑定到. 分页器可自定义 1/3  paginationtype
+//            clickable: true
+////            是否开启 点击分页点跳转到相应的页面
+//        },
+//        分页器 绑定到 .
+//    navigation: {
+//        按钮
+//        nextEl: '.swiper-button-next',
+//        下一个 class
+//         prevEl: '.swiper-button-prev'
+//        上一个 class
+//    },
+        loop:true,
+//        滑入 无缝轮播
+//        autoplay:true,
+//        自动切换
+        autoplay:{
+            delay:500
+        },
+//        延迟500切换
+
+//        effect:"cube" //立体方形
+//        effect:"fade"//淡入淡出
+//        effect:"coverflow"//..无法形容
+        effect:"filp"//.默认 的
+//        切换效果
+    })
+</script>
+</body>
+</html>
