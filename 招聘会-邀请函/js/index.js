@@ -12,7 +12,7 @@ var swiper = new Swiper('.swiper-container', {
         nextEl: "swiper-button-next"
 
     },
-    loop:true,
+    //loop:true,
     on: {
         init: function () {
             swiperAnimateCache(this); //隐藏动画元素

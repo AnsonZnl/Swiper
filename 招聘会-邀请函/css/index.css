@@ -98,8 +98,8 @@ img{
     animation-delay: 0.5s;
     animation-iteration-count: infinite;
     animation-play-state: running;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
 }
 .pause {
     animation-play-state: paused;
@@ -463,3 +463,14 @@ img{
         transform: rotate(-90deg) translate(10px, 0);
     }
 }
+/*媒体查询节点*/
+@media screen and (max-width: 320px) {
+    .phone{
+        display: none;
+    }
+    .innerbox{
+        display: none;
+    }
+}
+@media  (max-width: 375px) { }
+@media  (max-width: 412px) { }
