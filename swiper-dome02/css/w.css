@@ -1,0 +1,99 @@
+/*w330  h550*/
+@media (max-height:510px) {
+    /*小于510的时候*/
+    .invits{
+        top:5%;
+        height: 268px;
+    }
+    .invit{
+        top:5%;
+        height: 268px;
+    }
+    .slide3-txt{
+        top:43px;
+    }
+
+    .mobil{
+        height: 150px;
+    }
+
+    .slide3-txt p{
+        padding-left: 13%;
+        padding-right: 14%;
+        font-size: 1.4rem;
+        line-height: 1.7em;
+    }
+
+    .slide4-ul{
+        height: 330px;
+    }
+}
+
+
+
+
+@media (min-height: 510px) {
+    /*iphone 5 w320*/
+    .invits{
+        height: 268px;
+    }
+    .invit{
+        height: 268px;
+    }
+    .mobil{
+        height: 150px;
+    }
+    .slide3-txt{
+        top:54px;
+    }
+    .slide3-txt p{
+        padding-left: 13%;
+        padding-right: 14%;
+        font-size: 1.4rem;
+        line-height: 1.7em;
+    }
+    .weixin{
+        width: 100px;
+        height: 100px;
+    }
+    .slide4-ul{
+        height: 360px;
+    }
+
+
+}
+
+@media screen and (min-width:321px) and (max-width:375px) {
+    /*iphone 6 w375*/
+    .slide3-txt{
+        top: 50px;
+    }
+    .invits {
+        top: 10%;
+        height: 295px;
+    }
+    .invit {
+        top:9%;
+        height: 276px;
+    }
+
+    .mobil {
+        height: 152px;
+        margin-top: 8px;
+    }
+
+    .slide3-txt p {
+        padding-left: 12%;
+        padding-right: 12%;
+        font-size: 1.4rem;
+    }
+    .slide4-ul{
+        height: 345px;
+    }
+    .slide3-ul{
+        padding-left: 8%;
+    }
+    .slide6-form input{
+        font-size: 1.3rem;
+    }
+}
