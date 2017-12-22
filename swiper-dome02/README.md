@@ -1,3 +1,3 @@
 #swiper-dome02
 
-我用swiper 做的第二个邀请函
+点击[邀请函](https://github.com/AnsonZnl/AnsonZnl.github.io/tree/master/Swiper-demo/swiper-dome02)查看演示
